@@ -1,0 +1,8 @@
+<section class="container">
+    <h1>Thank you for downloading my scratch theme!</h1>
+    {% if settings.heading contains 'Schemas Loaded Correctly' %}
+        <p>{{ settings.heading }}</p>
+        {% else %}
+        <p>Problem with the Schemas</p>
+    {% endif %}
+</section>

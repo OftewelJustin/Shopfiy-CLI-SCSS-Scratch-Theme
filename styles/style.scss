@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
+$bg-black: #171B3B;
+$color-white: #fff;
+
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.container {
+  background-color: $bg-black;
+  width: 100vw;
+  height: 100vh;
+  h1{
+    color: $color-white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+  }
+  p {
+    color: $color-white;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+  }
+}
